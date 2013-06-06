@@ -1,0 +1,25 @@
+---
+title       : 
+subtitle    : 
+author      : 
+job         : 
+framework   : shower        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+---
+
+## RNASeq Mapping Reads to MCPyV Genome
+```{r rnaseqvirustbl, results='asis', echo=FALSE, warning=FALSE}
+require(xtable)
+tbl <- data.frame(sample=c("MC01","MT06","MT07","MT12","MT22","MT17","MT13","MT16","MT19","MT20"),
+                  virus.status=c(rep("Positive", 6), rep("Negative", 4)),
+                  total.mapped=c(282522530, 317891017, 306363064, 343913699, 327612532, 373194172, 336311259, 348568913, 318936034, 348512548),
+                  virus.mapped=c(5244, 8633, 24950, 15497, 181605, 3436, 1467, 0, 6526, 24753))
+## tbl <- transform(tbl, pct.virus.mapped=virus.mapped / total.mapped)
+colnames(tbl) <- c("Sample", "Virus Status", "Total Reads", "Virus Reads") ##, "% Virus Reads")
+xtbl <- xtable(tbl)
+display(xtbl) <- c("s", "s", "s", "d", "d")
+print(xtbl, type="html", include.rownames=FALSE)
+```
