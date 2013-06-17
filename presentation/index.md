@@ -1,29 +1,50 @@
 ---
-title       : 
-subtitle    : 
-author      : 
+title       : Dermatology Branch Journal Club
+subtitle    : 2013-06-14
+author      : Kenneth Daily
 job         : 
-framework   : shower        # {io2012, html5slides, shower, dzslides, ...}
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
 hitheme     : tomorrow      # 
 widgets     : []            # {mathjax, quiz, bootstrap}
 mode        : selfcontained # {standalone, draft}
 ---
 
-## RNASeq Mapping Reads to MCPyV Genome
-<!-- html table generated in R 2.15.2 by xtable 1.7-0 package -->
-<!-- Mon Dec 17 09:02:38 2012 -->
-<TABLE border=1>
-<TR> <TH> Sample </TH> <TH> Virus Status </TH> <TH> Total Reads </TH> <TH> Virus Reads </TH>  </TR>
-  <TR> <TD> MC01 </TD> <TD> Positive </TD> <TD align="right"> 282522530 </TD> <TD align="right"> 5244 </TD> </TR>
-  <TR> <TD> MT06 </TD> <TD> Positive </TD> <TD align="right"> 317891017 </TD> <TD align="right"> 8633 </TD> </TR>
-  <TR> <TD> MT07 </TD> <TD> Positive </TD> <TD align="right"> 306363064 </TD> <TD align="right"> 24950 </TD> </TR>
-  <TR> <TD> MT12 </TD> <TD> Positive </TD> <TD align="right"> 343913699 </TD> <TD align="right"> 15497 </TD> </TR>
-  <TR> <TD> MT22 </TD> <TD> Positive </TD> <TD align="right"> 327612532 </TD> <TD align="right"> 181605 </TD> </TR>
-  <TR> <TD> MT17 </TD> <TD> Positive </TD> <TD align="right"> 373194172 </TD> <TD align="right"> 3436 </TD> </TR>
-  <TR> <TD> MT13 </TD> <TD> Negative </TD> <TD align="right"> 336311259 </TD> <TD align="right"> 1467 </TD> </TR>
-  <TR> <TD> MT16 </TD> <TD> Negative </TD> <TD align="right"> 348568913 </TD> <TD align="right">   0 </TD> </TR>
-  <TR> <TD> MT19 </TD> <TD> Negative </TD> <TD align="right"> 318936034 </TD> <TD align="right"> 6526 </TD> </TR>
-  <TR> <TD> MT20 </TD> <TD> Negative </TD> <TD align="right"> 348512548 </TD> <TD align="right"> 24753 </TD> </TR>
-   </TABLE>
+## ENCODE
 
+<img src="./assets/img/encode-header.jpg" alt="ENCODE" height=350>
+
+---
+
+## ENCODE Pilot Project (2003-2007)
+### The ENcyclopedia Of DNA Elements
+
+* Following release of human genome sequence, April 2003
+* Identify and characterize sequence-based functional elements
+  * Experimentally and computationally
+* Targeted analysis of 44 regions (1% of genome)
+
+---
+
+## 
+
+<img src="./assets/img/17448.png" alt="ENCODE" width=900>
+
+---
+
+## 
+
+<img src="./assets/img/encode-feature-graphic.jpg" alt="ENCODE" width=850>
+
+---
+
+## ENCODE Results
+Foo bar baz
+
+---
+
+## 'Experimental' techniques
+### From the 2007 ENCODE pilot project (doi:10.1038/nature05874)
+> "In describing the major results and initial conclusions, we seek to distinguish ‘biochemical function’ from ‘biological role’. Biochemical function reflects the direct behaviour of a molecule(s), whereas biological role is used to describe the consequence(s) of this function for the organism.
+
+> Genome-analysis techniques nearly always focus on biochemical function but not necessarily on biological role. This is because the former is more amenable to large scale data-generation methods, whereas the latter is more difficult to assay on a large scale."

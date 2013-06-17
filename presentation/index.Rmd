@@ -48,3 +48,8 @@ Foo bar baz
 > "In describing the major results and initial conclusions, we seek to distinguish ‘biochemical function’ from ‘biological role’. Biochemical function reflects the direct behaviour of a molecule(s), whereas biological role is used to describe the consequence(s) of this function for the organism.
 
 > Genome-analysis techniques nearly always focus on biochemical function but not necessarily on biological role. This is because the former is more amenable to large scale data-generation methods, whereas the latter is more difficult to assay on a large scale."
+
+## Not all bad
+* Useful, extensive resource/dataset
+* All data AND CODE are available
+
