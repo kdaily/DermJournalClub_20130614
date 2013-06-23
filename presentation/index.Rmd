@@ -214,27 +214,69 @@ They do concede that introns are counted; though no numbers are given when they 
 
 
 ## Histone modification does not equal function
+- The "epigenetic code" - methylation, acetylation, phosporylation of histone tails
+- How much variation in gene expression is explained by histone modifications?
+  - 142 combinations of 3 modifications (out of ~8000); 2% **statistically** significant
+- ENCODE assigns function such as "5' end of genes" to H4K20me1
 
 ---
 
+## Histone modification patterns
+- Using signal processing techniques
+
 ## Open chromatin does not equal function
+- Defined as genomic DNAase I hypersensitive (DHS), or identified by FAIRE-Seq
+  - They are nucleosome depleted
+- 2.89 million DHSs (205K/cell type; tier 1, 2)
+  - 98.5% of ENCODE ChIP-Seq peaks are in these regions
+- 80% of TSSs were in open chromatin regions; two ways to view this:
+  - Most TSSs are in open chromatin regions, or
+  - Most open chromatin regions are functional TSSs.
+
+<!--- Song et al - "Over 870,000 DNaseI or FAIRE sites, which correspond tightly to nucleosome-depleted regions, were identified across the seven cell lines, covering nearly 9% of the genome"..."Open chromatin common to all seven cell types tended to be at or near transcription start sites and to be coincident with CTCF binding sites, while open chromatin sites found in only one cell type were typically located away from transcription start sites and contained DNA motifs recognized by regulators of cell-type identity." --->
+
+<!--- The protocol is based on the fact that the formaldehyde cross-linking is more efficient in nucleosome-bound DNA than it is in nucleosome-depleted regions of the genome. This method then segregates the non cross-linked DNA that is usually found in open chromatin, which is then sequenced. The protocol consists of cross linking, phenol extraction and sequencing the DNA in aqueous phase. --->
 
 ---
 
 ## TFBS binding does not equal function
+- Applied ChIP-Seq for 119 DNA-binding proteins (87 sequence specific TFs)
+- 636K (230Mb; 8.1% of genome) bound regions identified (and counted as functional!)
+- Disregard evolutionary conservation
+- Other study validates 12/14 Stat3 sites; extrapolating leaves 0.024% of the genome as TFBSs
+- High inherent false positive rate (6-14nt sites, degenerate)
+- Inflated values based on peak detection methods (600bp window; maybe should be 0.14% of genome)
 
 ---
 
 ## DNA methylation does not equal function
+- Previous work suggests DNA methylation of promoters negatively regulates expression
+- Identified 96% of 1.2 million sites are methylated (across 82 cell/tissues types)
+- Again, just a chemical property, not a function - most CpG sites are able to be methylated
+- A more interesting question: which regions lack CpGs?
+
+<!--- information a bit scarce on overlap across cell/tissue types; 1.2mill is avg across 82 types --->
+<!--- CpG sites are selected against - oft mutated, and they neg regulate gene exp --->
+<!--- Are CpGs important? Yes! (genomic imprinting, aberrant in cancer, etc) --->
 
 ---
 
 ## Derived allele frequency and purifying selection
-
+- Evidence for negative selection using 205K ENCODE and 85K non-ENCODE SNPs
+- Multiple "technical" errors
+  - Modeling genomes as independently derived (probably computational)
+  - Choice of regions to identify, manner of sample selection is questionable
+- ENCODE samples had 0.02% lower DAF than control regions
+  - Large sample size -> statistically significant result
+  - But is the magnitude of the effect biologically meaningful?
 --
 
 ## Junk (or garbage?) DNA
-
+> - Number of putative functional genes decreasing (pre-human genome: 212K; now: 20K)
+  - nematode: 20K genes!
+> - The semantics of "junk" DNA - junk vs. garbage
+  - Potential for function does not equal a function
+> - 
 ## Not all bad
 * Useful, extensive resource/dataset
 * All data AND CODE are available
