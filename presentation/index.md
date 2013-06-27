@@ -85,12 +85,6 @@ Nature 489, 46–48 (06 September 2012) doi:10.1038/489046a
 
 ## ENCODE Results - Machine learning
 
-<img src="./assets/img/fig7b.png" alt="Figure 7b: Machine learning on integrated data" height="95%">
-
----
-
-## ENCODE Results - Machine learning
-
 <img src="./assets/img/fig7c.png" alt="Figure 7c: Machine learning on integrated data" width=825>
 
 ---
@@ -107,11 +101,15 @@ Nature 489, 46–48 (06 September 2012) doi:10.1038/489046a
 
 > Operationally, we define a functional element as a discrete genome segment that encodes a defined product (for example, protein or non-coding RNA) or displays a reproducible biochemical signature (for example, protein binding, or specific chromatin structure).
 
+
 > The vast majority (80.4%) of the human genome participates in at least one biochemical RNA- and/or chromatin-associated event in at least one cell type.
+
 
 > 95% of the genome lies within 8Kb of a DNA-protein interaction.
 
+
 > 99% is within 1.7Kb of at least one of the biochemical events measured by ENCODE.
+
 
 > These estimates represent a lower bound, but reinforce the observation that there is more non-coding functional DNA than either coding sequence or mammalian evolutionary conserved bases.
 
