@@ -1,6 +1,6 @@
 ---
 title       : Dermatology Branch Journal Club
-subtitle    : 2013-06-14
+subtitle    : 2013-06-28
 author      : Kenneth Daily
 job         : 
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
@@ -37,10 +37,19 @@ mode        : selfcontained # {standalone, draft}
 
 ---
 
+## ENCODE as a data generation project
+### From the 2007 ENCODE pilot project (doi:10.1038/nature05874)
+> "In describing the major results and initial conclusions, we seek to distinguish ‘biochemical function’ from ‘biological role’. Biochemical function reflects the direct behaviour of a molecule(s), whereas biological role is used to describe the consequence(s) of this function for the organism.
+
+> Genome-analysis techniques nearly always focus on biochemical function but not necessarily on biological role. This is because the former is more amenable to large scale data-generation methods, whereas the latter is more difficult to assay on a large scale."
+
+---
+
 ## 
 <center>
-<img src="./assets/img/ENCODE_nature_cover.png" alt="ENCODE cover" height=400>
+<img src="./assets/img/ENCODE_nature_cover.png" alt="ENCODE cover" width="45%">
 </center>
+
 ---
 
 ## 
@@ -77,23 +86,15 @@ Nature 489, 46–48 (06 September 2012) doi:10.1038/489046a
 
 ---
 
-## Machine learning
+## Machine learning - self organizing map
 
 <img src="./assets/img/fig7a.png" alt="Figure 7a: Machine learning on integrated data" width="80%">
 
 ---
 
-## ENCODE Results - Machine learning
+## ENCODE results - self organizing map application
 
 <img src="./assets/img/fig7c.png" alt="Figure 7c: Machine learning on integrated data" width=825>
-
----
-
-## 'Experimental' techniques
-### From the 2007 ENCODE pilot project (doi:10.1038/nature05874)
-> "In describing the major results and initial conclusions, we seek to distinguish ‘biochemical function’ from ‘biological role’. Biochemical function reflects the direct behaviour of a molecule(s), whereas biological role is used to describe the consequence(s) of this function for the organism.
-
-> Genome-analysis techniques nearly always focus on biochemical function but not necessarily on biological role. This is because the former is more amenable to large scale data-generation methods, whereas the latter is more difficult to assay on a large scale."
 
 ---
 
@@ -153,6 +154,8 @@ Suggests a clear, conservative method for inference for function in DNA sequence
 
 > Example: The sequence "TATAAT" mutates into "TATAAA" and subsequently bind a transcription factor, but does not result in the transcription of a gene.
 > The "causal role function" is binding a transcription factor.
+
+_The heart: a blood pump, or fancy paperweight?_
 
 <!---
 Graur, et al. argue that ENCODE takes this definition; thus, if a region is determined to be functional (by the assays) then no deleterious mutations can occur (even in the absence of observed sequence-based evolutionary pressure)
@@ -235,8 +238,8 @@ They do concede that introns are counted; though no numbers are given when they 
 - 2.89 million DHSs (205K/cell type; tier 1, 2)
   - 98.5% of ENCODE ChIP-Seq peaks are in these regions
 - 80% of TSSs were in open chromatin regions; two ways to view this:
-  - Most TSSs are in open chromatin regions, or
-  - Most open chromatin regions are functional TSSs.
+  1. Most TSSs are in open chromatin regions, or
+  2. __Most open chromatin regions are functional TSSs.__
 
 <!--- Song et al - "Over 870,000 DNaseI or FAIRE sites, which correspond tightly to nucleosome-depleted regions, were identified across the seven cell lines, covering nearly 9% of the genome"..."Open chromatin common to all seven cell types tended to be at or near transcription start sites and to be coincident with CTCF binding sites, while open chromatin sites found in only one cell type were typically located away from transcription start sites and contained DNA motifs recognized by regulators of cell-type identity." --->
 
@@ -266,14 +269,42 @@ They do concede that introns are counted; though no numbers are given when they 
 
 ---
 
-## Derived allele frequency and purifying selection
+## (Lack of) purifying selection
+
+<img src="./assets/img/fig1.png" alt="Figure 1" width="75%">
+
+<!---
+The second is long term evolution (GERP) or the extent of divergence of that base across the mammals considered.
+--->
+
+---
+
+## Derived allele frequency distribution
+
+<img src="./assets/img/fig1e.png" alt="Figure 1" width="75%">
+
+<!---
+Short term evolution as derived allele frequency (DAF), reflecting the amount of drift from the base present in the common ancestor of human and chimpanzee towards a new base in the human lineage. 
+--->
+
+---
+
+## Derived allele frequency and negative selection
 > - Evidence for negative selection using 205K ENCODE and 85K non-ENCODE SNPs
 > - Multiple "technical" errors
   - Modeling genomes as independently derived (probably computational)
   - Choice of regions to identify, manner of sample selection is questionable
-> - ENCODE samples had 0.02% lower DAF than control regions
+> - ENCODE samples had 0.2% lower DAF than control regions (p=4e-37)
+  - Distributions overlap by 99.958%
   - Large sample size -> statistically significant result
   - But is the magnitude of the effect biologically meaningful?
+
+<!---
+Only selected primate specific regions to test - removing many functionally interesting regions
+Only used 1 out of 3 ethnic samples of SNPs; this significantly changes the distribution, since polymorphic sites were defined using all 3
+more than 80% of the regions uses were smaller than 100bp; median size of 15bp!
+differences between the control and test regions; 
+--->
 
 ---
 
@@ -296,6 +327,17 @@ They do concede that introns are counted; though no numbers are given when they 
 > - High-impact false positives by the truckload
 > - Let's rewrite the textbooks - the marketing, mass media hype, and PR textbooks!
 
+---
+
+## Thought experiment
+
+1. Synthesize a random human genome. Do ENCODE again.
+2. Repeat.
+
+What would we find?
+
+---
+
 ## Not all bad
 - Extensive resource/dataset
 - All data AND CODE are available; entire paper should be reproducible
@@ -304,7 +346,10 @@ They do concede that introns are counted; though no numbers are given when they 
 - Useful resource for genomics researchers
 - Will impact disease research
 
+---
+
 ## Increased vocabulary
+- linguistic prudery - ?
 - apophenia - see patterns in random data
 - A methodological "legerdemain" - sleight of hand, hocus-pocus
 - "genomic clochards" - vagrant, tramp
