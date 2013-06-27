@@ -85,12 +85,6 @@ Nature 489, 46–48 (06 September 2012) doi:10.1038/489046a
 
 ## ENCODE Results - Machine learning
 
-<img src="./assets/img/fig7b.png" alt="Figure 7b: Machine learning on integrated data" height="95%">
-
----
-
-## ENCODE Results - Machine learning
-
 <img src="./assets/img/fig7c.png" alt="Figure 7c: Machine learning on integrated data" width=825>
 
 ---
