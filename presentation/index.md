@@ -269,16 +269,6 @@ They do concede that introns are counted; though no numbers are given when they 
 
 ---
 
-## (Lack of) purifying selection
-
-<img src="./assets/img/fig1.png" alt="Figure 1" width="75%">
-
-<!---
-The second is long term evolution (GERP) or the extent of divergence of that base across the mammals considered.
---->
-
----
-
 ## Derived allele frequency distribution
 
 <img src="./assets/img/fig1e.png" alt="Figure 1" width="75%">
@@ -354,3 +344,14 @@ What would we find?
 - A methodological "legerdemain" - sleight of hand, hocus-pocus
 - "genomic clochards" - vagrant, tramp
 - "textual hermeneutics" - method or principle of interpretation
+
+
+---
+
+## Selection on ENCODE elements
+
+<img src="./assets/img/fig1.png" alt="Figure 1" width="75%">
+
+<!---
+The second is long term evolution (GERP) or the extent of divergence of that base across the mammals considered.
+--->
