@@ -111,7 +111,7 @@ Nature 489, 46–48 (06 September 2012) doi:10.1038/489046a
 > 99% is within 1.7Kb of at least one of the biochemical events measured by ENCODE.
 
 
-> These estimates represent a lower bound, but reinforce the observation that there is more non-coding functional DNA than either coding sequence or mammalian evolutionary conserved bases.
+> These estimates represent a lower bound, but reinforce the observation that there is __more non-coding functional DNA__ than either coding sequence or mammalian evolutionary conserved bases.
 
 --- &twocol
 
@@ -190,7 +190,7 @@ The broadest element class represents the different RNA types, covering 62% of t
 - Cell lines used are transcription permissive (<a href='http://encodeproject.org/encode/cellTypes.html'>Cell types</a>)
   - A hallmark of ESC genome: transcriptionally globally hyperactive<br/>
   (<a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2435228/">doi:10.1016/j.stem.2008.03.021</a>)
-  - HeLa cells are not representative of human cells (Helacyton gartleri)
+  - HeLa cells are not representative of human cells (_Helacyton gartleri_)
 - Allows DNA sequences WITHOUT a promoter to be transcribed
 - Three major classes of transcribed elements that are not really functional
 
