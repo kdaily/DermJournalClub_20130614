@@ -18,7 +18,9 @@
     src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
   </script>
   
-    <link rel="stylesheet" href = "assets/css/ribbons.css">
+    <link rel="stylesheet" href = "libraries/widgets/bootstrap/css/bootstrap.css">
+<link rel="stylesheet" href = "libraries/widgets/quiz/css/demo.css">
+<link rel="stylesheet" href = "assets/css/ribbons.css">
 <link rel="stylesheet" href = "assets/css/titleslide.css">
 
 </head>
@@ -42,24 +44,18 @@
     <!-- SLIDES -->
       <slide class="" id="slide-1" style="background:;">
   <hgroup>
-    <h2>ENCODE</h2>
+    
   </hgroup>
   <article>
-    <p><img src="./assets/img/encode-header.jpg" alt="ENCODE" height=350></p>
+    <p><img src="./assets/img/encode-header.jpg" alt="ENCODE" height=75></p>
 
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-
-      <slide class="" id="slide-2" style="background:;">
-  <hgroup>
-    <h2>ENCODE Pilot Project (2003-2007)</h2>
-  </hgroup>
-  <article>
-    <h3>The ENcyclopedia Of DNA Elements</h3>
+<h3>The ENcyclopedia Of DNA Elements Pilot Project (2003-2007)</h3>
 
 <ul>
 <li>Following release of human genome sequence, April 2003</li>
+</ul>
+
+<ul class = "build">
 <li>Identify and characterize sequence-based functional elements
 
 <ul>
@@ -73,12 +69,14 @@
   <!-- Presenter Notes -->
 </slide>
 
-      <slide class="" id="slide-3" style="background:;">
+      <slide class="" id="slide-2" style="background:;">
   <hgroup>
-    <h2>Highlights</h2>
+    <h2>Highlights (Nature, Vol 447, 14 June 2007)</h2>
   </hgroup>
   <article>
-    <ul>
+    <h3>Identification and analysis of functional elements in 1% of the human genome by the ENCODE pilot project</h3>
+
+<ul>
 <li>More transcription than previously identified</li>
 <li>Symmetric distribution of regulatory sequences around TSS&#39;s</li>
 <li>Characteristic histone modification patterns</li>
@@ -90,12 +88,17 @@
   <!-- Presenter Notes -->
 </slide>
 
-      <slide class="" id="slide-4" style="background:;">
+      <slide class="" id="slide-3" style="background:;">
   <hgroup>
     
   </hgroup>
   <article>
-    <p><img src="./assets/img/17448.png" alt="ENCODE" width=900></p>
+    <p><center>
+<img src="./assets/img/ENCODE_nature_cover.png" alt="ENCODE cover" height=400></p>
+
+<h2></center></h2>
+
+<p><img src="./assets/img/17448.png" alt="ENCODE" width=900></p>
 
 <p>PLoS Biol. 2011 Apr;9(4):e1001046. doi: 10.1371/journal.pbio.1001046</p>
 
@@ -103,7 +106,7 @@
   <!-- Presenter Notes -->
 </slide>
 
-      <slide class="" id="slide-5" style="background:;">
+      <slide class="" id="slide-4" style="background:;">
   <hgroup>
     
   </hgroup>
@@ -116,18 +119,73 @@
   <!-- Presenter Notes -->
 </slide>
 
-      <slide class="" id="slide-6" style="background:;">
+      <slide class="" id="slide-5" style="background:;">
   <hgroup>
-    <h2>ENCODE Results</h2>
+    <h2>Histone modifications predict expression</h2>
   </hgroup>
   <article>
-    <p>Foo bar baz</p>
+    <p><img src="./assets/img/fig2b.png" alt="Figure 2b: Histone modifications and expression" width=825></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+      <slide class="" id="slide-6" style="background:;">
+  <hgroup>
+    <h2>Transcription factor co-association</h2>
+  </hgroup>
+  <article>
+    <p><img src="./assets/img/fig4.png" alt="Figure 4: Transcription factor co-association" width="95%"></p>
 
   </article>
   <!-- Presenter Notes -->
 </slide>
 
       <slide class="" id="slide-7" style="background:;">
+  <hgroup>
+    <h2>Data integration and segmentation</h2>
+  </hgroup>
+  <article>
+    <p><img src="./assets/img/fig5a.png" alt="Figure 5a: Data integration and segmentation" width="100%"></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+      <slide class="" id="slide-8" style="background:;">
+  <hgroup>
+    <h2>Machine learning</h2>
+  </hgroup>
+  <article>
+    <p><img src="./assets/img/fig7a.png" alt="Figure 7a: Machine learning on integrated data" width="80%"></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+      <slide class="" id="slide-9" style="background:;">
+  <hgroup>
+    <h2>ENCODE Results - Machine learning</h2>
+  </hgroup>
+  <article>
+    <p><img src="./assets/img/fig7b.png" alt="Figure 7b: Machine learning on integrated data" height="95%"></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+      <slide class="" id="slide-10" style="background:;">
+  <hgroup>
+    <h2>ENCODE Results - Machine learning</h2>
+  </hgroup>
+  <article>
+    <p><img src="./assets/img/fig7c.png" alt="Figure 7c: Machine learning on integrated data" width=825></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+      <slide class="" id="slide-11" style="background:;">
   <hgroup>
     <h2>&#39;Experimental&#39; techniques</h2>
   </hgroup>
@@ -144,14 +202,370 @@
   <!-- Presenter Notes -->
 </slide>
 
-      <slide class="" id="slide-8" style="background:;">
+      <slide class="" id="slide-12" style="background:;">
   <hgroup>
-    <h2>Not all bad</h2>
+    <h2>(Some of) ENCODE&#39;s strong statements</h2>
+  </hgroup>
+  <article>
+    <blockquote>
+<p>Operationally, we define a functional element as a discrete genome segment that encodes a defined product (for example, protein or non-coding RNA) or displays a reproducible biochemical signature (for example, protein binding, or specific chromatin structure).</p>
+
+<p>The vast majority (80.4%) of the human genome participates in at least one biochemical RNA- and/or chromatin-associated event in at least one cell type.</p>
+
+<p>95% of the genome lies within 8Kb of a DNA-protein interaction.</p>
+
+<p>99% is within 1.7Kb of at least one of the biochemical events measured by ENCODE.</p>
+
+<p>These estimates represent a lower bound, but reinforce the observation that there is more non-coding functional DNA than either coding sequence or mammalian evolutionary conserved bases.</p>
+</blockquote>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+      <slide class="" id="slide-13">
+  <hgroup>
+    <h2>A rebuttal of ENCODE</h2>
+  </hgroup>
+  <article>
+      
+    <div class='left' style='float:left;width:48%'>
+     <p><img src="./assets/img/dan_graur_twitter.jpeg" alt="Dan Graur" width=350></p>
+
+<p>Molecular evolutionary biologist
+<a href="https://twitter.com/DanGraur">https://twitter.com/DanGraur</a></p>
+
+
+    </div>    
+    <div class='right' style='float:right;width:48%'>
+     <h3>Starting off:</h3>
+
+<blockquote>
+<p>The ENCODE Project Consortium assigns function to 80.4% of the genome. We disagree with this estimate.</p>
+</blockquote>
+
+<ul>
+<li>Definition of function is questionable</li>
+<li>Function is maintained in the absence of selection</li>
+<li>Methods favor sensitivity over specificity</li>
+</ul>
+
+    </div>
+  </article>
+</slide>
+      <slide class="" id="slide-14" style="background:;">
+  <hgroup>
+    <h2>Selected effect vs. causal role</h2>
+  </hgroup>
+  <article>
+    <h3>Selected effect functions are historical and evolutionary</h3>
+
+<blockquote>
+<p>The sequence &quot;TATAAA&quot; is maintained by natural selection to bind a transcription factor, resulting in the transcription of a gene.</p>
+
+<p>The selected effect function is binding a transcription factor.</p>
+</blockquote>
+
+<!---
+Suggests a clear, conservative method for inference for function in DNA sequences; only sequences under selection can be claimed to be functional
+--->
+
+<h3>Causal role functions are ahistorical and nonevolutionary</h3>
+
+<blockquote>
+<p>Example: The sequence &quot;TATAAT&quot; mutates into &quot;TATAAA&quot; and subsequently bind a transcription factor, but does not result in the transcription of a gene.
+The &quot;causal role function&quot; is binding a transcription factor.</p>
+</blockquote>
+
+<!---
+Graur, et al. argue that ENCODE takes this definition; thus, if a region is determined to be functional (by the assays) then no deleterious mutations can occur (even in the absence of observed sequence-based evolutionary pressure)
+--->
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+      <slide class="" id="slide-15" style="background:;">
+  <hgroup>
+    <h2>Wrong and inconsistent?</h2>
   </hgroup>
   <article>
     <ul>
-<li>Useful, extensive resource/dataset</li>
-<li>All data AND CODE are available</li>
+<li>Function according to ENCODE
+
+<ul>
+<li>be transcribed, associated with modified histone, located in an open chromatin area, bind a transcription factor or contain methylated CpG dinucleotide</li>
+</ul></li>
+</ul>
+
+<p><strong>Are these functions, or simply genomic locations, features/properties related to nucleotide composition?</strong></p>
+
+<ul>
+<li>The ENCODE functional argument (affirming the consequent)
+
+<ol>
+<li>&quot;Functional&quot; DNA segments tend to display a certain property.</li>
+<li>A DNA segment displays the same &quot;property.&quot;</li>
+<li>Therefore, the DNA segment is &quot;functional.&quot;</li>
+</ol></li>
+</ul>
+
+<h3>Inconsistent, arbitrary percentages of amount of functional DNA (80%, 40%, 20%,...)</h3>
+
+<h3>100% of genome replicates (a reproducible biochemical event!); so it&#39;s all functional!</h3>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+      <slide class="" id="slide-16" style="background:;">
+  <hgroup>
+    <h2>Transcription does not equal function</h2>
+  </hgroup>
+  <article>
+    <h3>Claim: 74.7% of the genome is transcribed (via RNA-Seq, CAGE-Seq, PET-Seq)</h3>
+
+<ul>
+<li>Conclusion: every observed transcribed DNA is &quot;functional&quot;</li>
+</ul>
+
+<!---
+The broadest element class represents the different RNA types, covering 62% of the genome (although the majority is inside of introns or near genes).
+--->
+
+<h3>Problems</h3>
+
+<ul>
+<li>Others estimate 90% of transcription is &quot;noise&quot;</li>
+<li>Cell lines used are transcription permissive (<a href='http://encodeproject.org/encode/cellTypes.html'>Cell types</a>)
+
+<ul>
+<li>A hallmark of ESC genome: transcriptionally globally hyperactive<br/>
+(<a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2435228/">doi:10.1016/j.stem.2008.03.021</a>)</li>
+<li>HeLa cells are not representative of human cells (Helacyton gartleri)</li>
+</ul></li>
+<li>Allows DNA sequences WITHOUT a promoter to be transcribed</li>
+<li>Three major classes of transcribed elements that are not really functional</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+      <slide class="" id="slide-17" style="background:;">
+  <hgroup>
+    <h2>Transcription does not equal function</h2>
+  </hgroup>
+  <article>
+    <h3>Pseudogenes</h3>
+
+<ul>
+<li>10% of pseudogenes are transcribed, often translated in tumor cells</li>
+<li>High level of mutations, not under functional constraint (negative selection)</li>
+<li>&quot;Pseudogenes&quot; that have been shown to be functional aren&#39;t pseudogenes!</li>
+</ul>
+
+<h3>Introns</h3>
+
+<ul>
+<li>Only 4% of primary transcripts are coding, but ALL transcript bases counted as functional</li>
+<li>3% introns knocked out with negative growth effect yeast</li>
+<li>Exceptions - splice sites, regulatory elements, mirtrons (small percentage)</li>
+</ul>
+
+<!---
+They do concede that introns are counted; though no numbers are given when they are excluded 
+--->
+
+<h3>Mobile elements</h3>
+
+<ul>
+<li>LINEs, SINES, retroviruses, transposons</li>
+<li>2/3 of genome, 1/3 of transcriptome (e.g. Alu elements)</li>
+<li>Only functions are littering and causing frameshifts</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+      <slide class="" id="slide-18" style="background:;">
+  <hgroup>
+    <h2>Histone modification does not equal function</h2>
+  </hgroup>
+  <article>
+    <ul>
+<li>The &quot;epigenetic code&quot; - methylation, acetylation, phosporylation of histone tails</li>
+<li>How much variation in gene expression is explained by histone modifications?
+
+<ul>
+<li>Karlic et al. - 142 combinations of 3 modifications (out of ~8000)</li>
+<li>2% <strong>statistically</strong> significant</li>
+</ul></li>
+<li>ENCODE assigns function such as &quot;5&#39; end of genes&quot; to H4K20me1</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+      <slide class="" id="slide-19" style="background:;">
+  <hgroup>
+    <h2>Open chromatin does not equal function</h2>
+  </hgroup>
+  <article>
+    <ul>
+<li>Defined as genomic DNAase I hypersensitive (DHS), or identified by FAIRE-Seq
+
+<ul>
+<li>They are nucleosome depleted</li>
+</ul></li>
+<li>2.89 million DHSs (205K/cell type; tier 1, 2)
+
+<ul>
+<li>98.5% of ENCODE ChIP-Seq peaks are in these regions</li>
+</ul></li>
+<li>80% of TSSs were in open chromatin regions; two ways to view this:
+
+<ul>
+<li>Most TSSs are in open chromatin regions, or</li>
+<li>Most open chromatin regions are functional TSSs.</li>
+</ul></li>
+</ul>
+
+<!--- Song et al - "Over 870,000 DNaseI or FAIRE sites, which correspond tightly to nucleosome-depleted regions, were identified across the seven cell lines, covering nearly 9% of the genome"..."Open chromatin common to all seven cell types tended to be at or near transcription start sites and to be coincident with CTCF binding sites, while open chromatin sites found in only one cell type were typically located away from transcription start sites and contained DNA motifs recognized by regulators of cell-type identity." --->
+
+<!--- The protocol is based on the fact that the formaldehyde cross-linking is more efficient in nucleosome-bound DNA than it is in nucleosome-depleted regions of the genome. This method then segregates the non cross-linked DNA that is usually found in open chromatin, which is then sequenced. The protocol consists of cross linking, phenol extraction and sequencing the DNA in aqueous phase. --->
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+      <slide class="" id="slide-20" style="background:;">
+  <hgroup>
+    <h2>TFBS binding does not equal function</h2>
+  </hgroup>
+  <article>
+    <ul>
+<li>Applied ChIP-Seq for 119 DNA-binding proteins (87 sequence specific TFs)</li>
+<li>636K (230Mb; 8.1% of genome) bound regions identified (and counted as functional!)</li>
+<li>Disregard evolutionary conservation</li>
+<li>Other study validates 12/14 Stat3 sites; extrapolating leaves 0.024% of the genome as TFBSs</li>
+<li>High inherent false positive rate (6-14nt sites, degenerate)</li>
+<li>Inflated values based on peak detection methods (600bp window; maybe should be 0.14% of genome)</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+      <slide class="" id="slide-21" style="background:;">
+  <hgroup>
+    <h2>DNA methylation does not equal function</h2>
+  </hgroup>
+  <article>
+    <ul>
+<li>Previous work suggests DNA methylation of promoters negatively regulates expression</li>
+<li>Identified 96% of 1.2 million sites are methylated (across 82 cell/tissues types)</li>
+<li>Again, just a chemical property, not a function - most CpG sites are able to be methylated</li>
+<li>A more interesting question: which regions lack CpGs?</li>
+</ul>
+
+<!--- information a bit scarce on overlap across cell/tissue types; 1.2mill is avg across 82 types --->
+
+<!--- CpG sites are selected against - oft mutated, and they neg regulate gene exp --->
+
+<!--- Are CpGs important? Yes! (genomic imprinting, aberrant in cancer, etc) --->
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+      <slide class="" id="slide-22" style="background:;">
+  <hgroup>
+    <h2>Derived allele frequency and purifying selection</h2>
+  </hgroup>
+  <article>
+    <ul class = "build">
+<li>Evidence for negative selection using 205K ENCODE and 85K non-ENCODE SNPs</li>
+<li>Multiple &quot;technical&quot; errors
+
+<ul>
+<li>Modeling genomes as independently derived (probably computational)</li>
+<li>Choice of regions to identify, manner of sample selection is questionable</li>
+</ul></li>
+<li>ENCODE samples had 0.02% lower DAF than control regions
+
+<ul>
+<li>Large sample size -&gt; statistically significant result</li>
+<li>But is the magnitude of the effect biologically meaningful?</li>
+</ul></li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+      <slide class="" id="slide-23" style="background:;">
+  <hgroup>
+    <h2>Junk (or garbage?) DNA</h2>
+  </hgroup>
+  <article>
+    <ul class = "build">
+<li>Number of putative functional genes decreasing (pre-human genome: 212K; now: 20K)
+
+<ul>
+<li>nematode: 20K genes!</li>
+<li>&#39;streamlined&#39; genomes only possible with large population size, deleterious effects of genome size are significant</li>
+</ul></li>
+<li>The semantics of &quot;junk&quot; DNA - junk vs. garbage
+
+<ul>
+<li>Potential for function does not equal a function</li>
+</ul></li>
+<li>Indifferent DNA - functional, not under constraint w.r.t. sequence composition (spacer sequence)</li>
+<li>Are species with larger genomes, less phenotypically complex devoid of junk?</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+      <slide class="" id="slide-24" style="background:;">
+  <hgroup>
+    <h2>Big science, small science</h2>
+  </hgroup>
+  <article>
+    <ul class = "build">
+<li>442 researchers; $288,000,000 in funding</li>
+<li>Concerns over loss of funding of small (focused) scientific projects over large scale fishing expeditions</li>
+<li>Big Science - generate data; small science - make sense of it</li>
+<li>ENCODE whittles it down to 2.7 billion nucleotides of importance, assuming a small science role of interpretation</li>
+<li>High-impact false positives by the truckload</li>
+<li>Let&#39;s rewrite the textbooks - the marketing, mass media hype, and PR textbooks!</li>
+</ul>
+
+<h2>Not all bad</h2>
+
+<ul>
+<li>Extensive resource/dataset</li>
+<li>All data AND CODE are available; entire paper should be reproducible</li>
+<li>Pushed computational methods forward
+
+<ul>
+<li>Does not excuse many data selection oversights (garbage in, garbage out)</li>
+</ul></li>
+<li>Useful resource for genomics researchers</li>
+<li>Will impact disease research</li>
+</ul>
+
+<h2>Increased vocabulary</h2>
+
+<ul>
+<li>apophenia - see patterns in random data</li>
+<li>A methodological &quot;legerdemain&quot; - sleight of hand, hocus-pocus</li>
+<li>&quot;genomic clochards&quot; - vagrant, tramp</li>
+<li>&quot;textual hermeneutics&quot; - method or principle of interpretation</li>
 </ul>
 
   </article>
@@ -172,6 +586,27 @@
 <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
 <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery-1.7.min.js"><\/script>')</script>
 <!-- Load Javascripts for Widgets -->
+<!-- MathJax: Fall back to local if CDN offline but local image fonts are not supported (saves >100MB) -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [['$','$'], ['\\(','\\)']],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<!-- <script src="https://c328740.ssl.cf1.rackcdn.com/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script> -->
+<script>window.MathJax || document.write('<script type="text/x-mathjax-config">MathJax.Hub.Config({"HTML-CSS":{imageFont:null}});<\/script><script src="/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"><\/script>')
+</script>
+<script>  
+$(function (){ 
+  $("#example").popover(); 
+  $("[rel='tooltip']").tooltip(); 
+});  
+</script>  
+
 <!-- LOAD HIGHLIGHTER JS FILES -->
 <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>

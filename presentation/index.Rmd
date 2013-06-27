@@ -123,6 +123,7 @@ Nature 489, 46–48 (06 September 2012) doi:10.1038/489046a
 
 <img src="./assets/img/dan_graur_twitter.jpeg" alt="Dan Graur" width=350>
 
+Molecular evolutionary biologist
 https://twitter.com/DanGraur
 
 *** right
@@ -135,7 +136,7 @@ https://twitter.com/DanGraur
 - Function is maintained in the absence of selection
 - Methods favor sensitivity over specificity
 
---- .tvbg-slide
+---
 
 ## Selected effect vs. causal role
 
@@ -302,6 +303,8 @@ They do concede that introns are counted; though no numbers are given when they 
 - All data AND CODE are available; entire paper should be reproducible
 - Pushed computational methods forward
   - Does not excuse many data selection oversights (garbage in, garbage out)
+- Useful resource for genomics researchers
+- Will impact disease research
 
 ## Increased vocabulary
 - apophenia - see patterns in random data
