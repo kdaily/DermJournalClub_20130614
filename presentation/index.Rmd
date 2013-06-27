@@ -99,7 +99,7 @@ Nature 489, 46–48 (06 September 2012) doi:10.1038/489046a
 
 ## (Some of) ENCODE's strong statements
 
-> Operationally, we define a functional element as a discrete genome segment that encodes a defined product (for example, protein or non-coding RNA) or displays a reproducible biochemical signature (for example, protein binding, or specific chromatin structure).
+> Operationally, we define a __functional element__ as a discrete genome segment that encodes a defined product (for example, protein or non-coding RNA) or displays a reproducible biochemical signature (for example, protein binding, or specific chromatin structure).
 
 
 > The vast majority (80.4%) of the human genome participates in at least one biochemical RNA- and/or chromatin-associated event in at least one cell type.
