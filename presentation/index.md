@@ -102,17 +102,23 @@ Nature 489, 46–48 (06 September 2012) doi:10.1038/489046a
 
 > Operationally, we define a __functional element__ as a discrete genome segment that encodes a defined product (for example, protein or non-coding RNA) or displays a reproducible biochemical signature (for example, protein binding, or specific chromatin structure).
 
-
 > The vast majority (80.4%) of the human genome participates in at least one biochemical RNA- and/or chromatin-associated event in at least one cell type.
-
 
 > 95% of the genome lies within 8Kb of a DNA-protein interaction.
 
-
 > 99% is within 1.7Kb of at least one of the biochemical events measured by ENCODE.
 
-
 > These estimates represent a lower bound, but reinforce the observation that there is __more non-coding functional DNA__ than either coding sequence or mammalian evolutionary conserved bases.
+
+> change the way a lot of [genomics] concepts are written about and presented in textbooks
+
+> I don't think anyone would have anticipated even close to the amount of sequence that ENCODE has uncovered that looks like it has functional importance
+
+---
+
+## 
+
+<img src="./assets/img/graur_title.png" alt="Graur et al, title page" width=825>
 
 --- &twocol
 
@@ -334,7 +340,7 @@ What would we find?
 - Pushed computational methods forward
   - Does not excuse many data selection oversights (garbage in, garbage out)
 - Useful resource for genomics researchers
-- Will impact disease research
+- Will impact disease research (Chron's)
 
 ---
 
